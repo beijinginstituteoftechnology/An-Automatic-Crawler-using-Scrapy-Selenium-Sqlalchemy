@@ -4,7 +4,8 @@ Crawler for JavaScript &amp; AJAX websites; Auto log in; Parse js; Save items in
 可爬取两层需要登录的动态js渲染网站的爬虫，自动登录，解析js，自动存储数据库，自动循环加载爬虫。
   
 Note:  
-Run perfectly.  However, For privacy, the crawled website was changed to www.xxx.com, and the cookie used for login and the password for connecting to the database had been deleted.  
+Run perfectly.  
+However, For privacy, the crawled website was changed to www.xxx.com, and the cookie used for login and the password for connecting to the database had been deleted.  
   
 How to run:  
 Run main.py or open Scrapydemo.spiders.demo terminal and enter “scrapy crawl demo”.  
@@ -18,7 +19,8 @@ Principles:
   
   
 注：  
-完美运行，然而为了隐私，爬取的网站改为了 www.xxx.com, 登录用的cookie和连接数据库的密码已被删掉。  
+完美运行。  
+然而为了隐私，爬取的网站改为了 www.xxx.com, 登录用的cookie和连接数据库的密码已被删掉。  
   
 如何使用：  
 运行main.py 或 打开Scrapydemo.spiders.demo terminal输入 “scrapy crawl demo”。  
