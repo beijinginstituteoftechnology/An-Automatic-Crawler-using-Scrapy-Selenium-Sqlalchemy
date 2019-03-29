@@ -26,7 +26,7 @@ How to run:
 Run main.py or open Scrapydemo.spiders.demo terminal and enter “scrapy crawl demo”
 
 
-Principle:
+Principles:
 
 1. Log in using selenium webdriver. add_cookie: In middleware: parse the JS login entry, use cookie, split the cookie and load, and then refresh.
 
