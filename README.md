@@ -12,8 +12,8 @@ Run main.py or open Scrapydemo.spiders.demo terminal and enter “scrapy crawl d
   
 # Principles:  
 1. Log in using selenium webdriver. add_cookie: In middleware: parse the JS login entry, use cookie, split the cookie and load, and then refresh.
-2. Using Selenium and XPath to parse the primary page: after login, selenium can display the contents loaded by js. Use XPath to parse ID.
-3. Using XPath to parse the second page and store the item. Since we already stores two items in first tier, in order to ensure the number of items entering pipeline is consistent, I use tables to append and then assign them to items.
+2. Use Selenium and XPath to parse the primary page: after login, selenium can display the contents loaded by js. Use XPath to parse ID.
+3. Use XPath to parse the second page and store the item. Since we already stores two items in first tier, in order to ensure the number of items entering pipeline is consistent, I use tables to append and then assign them to items.
 4. Store into database: Use Sqlalchemy.ORM to connect to the database and put in the data.
 5. Auto-loading crawler: This code is from online, no more explanation.
   
