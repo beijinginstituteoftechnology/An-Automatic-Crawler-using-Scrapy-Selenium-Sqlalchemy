@@ -1,5 +1,6 @@
 # An Automatic Crawler Scrapy Selenium Sqlalchemy
-Tophatter.com
+For Tophatter.com
+Tophatter爬虫
 
 
 Crawler for JavaScript &amp; AJAX websites; Auto log in; Parse js; Save items into db; Auto load;  
